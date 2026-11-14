@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "apks": {
+    "aurora": {
+      "url": "https://github.com/Islomumarov36/rtool-catalog/releases/download/apks/AuroraStore.apk",
+      "sha256": "54a426e9337b027fb5dd1d40d9b16cdb279649b7f55b6924a6df94ab501544bf"
+    },
+    "agent": {
+      "url": "https://github.com/Islomumarov36/rtool-catalog/releases/download/apks/DevPolicyAgent.apk",
+      "sha256": "bd2d6c8cf95e4584de9973b836b39119e4f911931932ce237cecb18ae19a789c"
+    },
+    "ttslexx": {
+      "url": "https://github.com/Islomumarov36/rtool-catalog/releases/download/apks/ReconfigTTS.apk",
+      "sha256": "f77b56e7d6043f803ce7ce0fd366002cd67c3082961bdea6504ce2fe9fd29dfc"
+    },
+    "multiunlock": {
+      "url": "https://github.com/Islomumarov36/rtool-catalog/releases/download/apks/MultiUnlock.apk",
+      "sha256": "137b55378c291bcc9d94b36609db9fd403dc4aa514b42f7d6fce25bc638d07fd"
+    }
+  },
+  "bloatware": {
+    "xiaomi": [
+      "com.miui.analytics",
+      "com.miui.msa.global",
+      "com.xiaomi.mipicks",
+      "com.miui.systemAdSolution",
+      "com.miui.cleanmaster",
+      "com.miui.player"
+    ],
+    "samsung": [
+      "com.samsung.android.bixby.agent",
+      "com.samsung.android.scloud"
+    ]
+  }
+}
