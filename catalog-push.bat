@@ -36,12 +36,9 @@ if not exist ".git" "!GIT!" init
 "!GIT!" remote remove origin 2>nul
 "!GIT!" remote add origin https://github.com/Islomumarov36/rtool-catalog.git
 
-echo === GitHub bilan birlashtirilmoqda (repo'da fayl bo'lsa) ===
-"!GIT!" pull origin main --allow-unrelated-histories --no-edit 2>nul
-
 echo.
-echo === GitHub'ga yuborilmoqda (login so'ralsa, hisobingiz bilan kiring/avtorizatsiya) ===
-"!GIT!" push -u origin main
+echo === GitHub'ga yuborilmoqda (eski catalog.json yangisi bilan almashtiriladi) ===
+"!GIT!" push -u origin main --force
 
 echo.
 echo Agar xato bo'lmasa - TAYYOR: https://github.com/Islomumarov36/rtool-catalog
